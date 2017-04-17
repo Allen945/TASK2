@@ -1,0 +1,71 @@
+    #RDH {
+        z-index: 2;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 19px 0 5px 0;
+        padding: 0 96px 0 0;
+    }
+    
+    .DH {
+        float: left;
+        color: #333;
+        font-weight: bold;
+        line-height: 24px;
+        margin-left: 20px;
+        font-size: 13px;
+        text-decoration: underline;
+    }
+    
+    .DH2 {
+        display: inline-block;
+        float: left;
+        color: #333;
+        line-height: 24px;
+        font-size: 13px;
+        margin-left: 20px;
+        overflow: hidden;
+        text-decoration: underline;
+    }
+    
+    .con {
+        height: 400px;
+        text-align: center;
+        padding-top: 40px;
+        font-size: 0;
+    }
+    
+    .con img {
+        padding-bottom: 15px;
+    }
+    
+    .con input {
+        display: inline-block;
+        vertical-align: middle;
+        border: none;
+        padding-left: 10px;
+        _margin-left: 2px;
+        +margin-left: 2px;
+    }
+    
+    .con .so {
+        width: 600px;
+        height: 36px;
+        border: 1px solid #9FB6CD;
+    }
+    
+    .con .sub {
+        width: 80px;
+        height: 40px;
+        background: #06c;
+        color: #fff;
+    }
+    
+    .foot {
+        position: absolute;
+        width: 100%;
+        bottom: 44px;
+        text-align: center;
+        font-size: 13px;
+    }
